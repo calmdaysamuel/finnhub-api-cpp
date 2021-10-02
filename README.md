@@ -10,7 +10,15 @@ This library depends on two libraries that need to need manually installed:
 
 Libcurl: https://curl.haxx.se/docs/install.html
 
+```shell
+vcpkg install curl
+```
+
 Jsoncpp: https://github.com/open-source-parsers/jsoncpp
+
+```shell
+vcpkg install jsoncpp
+```
 
 Why use this library over the official API:
 
@@ -260,7 +268,7 @@ Json::Value *EconomicData(std::string code);
 - Economic Codes: https://finnhub.io/docs/api/economic-code
 - Economic: https://finnhub.io/docs/api/economic-data
 
-#### TO DO:
+##### TO DO:
 
 - Trades Websocket client: https://finnhub.io/docs/api/websocket-trades
 - News Websocket client: https://finnhub.io/docs/api/websocket-news
