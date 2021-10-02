@@ -275,3 +275,4 @@ Json::Value *EconomicData(std::string code);
 - Trades Websocket client: https://finnhub.io/docs/api/websocket-trades
 - News Websocket client: https://finnhub.io/docs/api/websocket-news
 - Generate Doxygen Documentation
+- CSV Support
