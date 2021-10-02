@@ -1,0 +1,6 @@
+{
+  "name": "sc-finnhub-unofficial-api",
+  "version": "1.0-stable",
+  "description": "C++ library for Finnhub API https://finnhub.io/docs/api",
+  "dependencies": ["curl", "jsoncpp"]
+}

@@ -4,6 +4,7 @@ Unofficial C++ library for the Finnhub Financial Data API
 
 This library provides an easy to use interface for requesting data from the Finnhub API.
 
+The documentation for the official API can be found here: https://finnhub.io/docs/api, and should be used to as a refernce to understand input parameters
 This library depends on two libraries that need to need manually installed:
 
 Libcurl: https://curl.haxx.se/docs/install.html
@@ -16,20 +17,9 @@ This library makes it easy to request any piece of data from the Finnhub API
 in only two lines of code.
 
 Step 1: Initialize the API with your Finhubb API token
-Step 2: Use the in built functions to request teh data you want
+Step 2: Use the in built functions to request tHE data you want
 
-###### Example 1:
-
-```c++
-int main()
-{
-	Rivendell::FinnHubAPI api = Rivendell::FinnHubAPI("YOUR_API_TOKEN");
-
-	Json::Value* APPLStockQuote = api.StockQuote("AAPL");
-
-	std::cout << APPLStockQuote->toStyledString() << std::endl;
-}
-```
+###### Example 1: Request Apple(AAPL) stock quote
 
 ```c++
 int main()
@@ -45,6 +35,7 @@ int main()
 ###### Output:
 
 ```json
+// Reference the Official Finnhub documentation to see feild definitions
 {
   "c": 142.65000000000001,
   "d": 1.1499999999999999,
@@ -154,5 +145,4 @@ int main()
 
 - Trades Websocket client: https://finnhub.io/docs/api/websocket-trades
 - News Websocket client: https://finnhub.io/docs/api/websocket-news
--
-- Doxygen Documentation
+- Generate Doxygen Documentation
