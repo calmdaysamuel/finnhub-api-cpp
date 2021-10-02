@@ -1,5 +1,7 @@
 # finnhub-api-cpp
 
+Considered leaving a star if you find this library useful
+
 Unofficial C++ library for the Finnhub Financial Data API
 
 This library provides an easy to use interface for requesting data from the Finnhub API.
