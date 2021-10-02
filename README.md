@@ -17,7 +17,45 @@ in only two lines of code.
 
 Step 1: Initialize the API with your Finhubb API token
 Step 2: Use the in built functions to request teh data you want
-Example:
+
+###### Example 1:
+
+```c++
+int main()
+{
+	Rivendell::FinnHubAPI api = Rivendell::FinnHubAPI("YOUR_API_TOKEN");
+
+	Json::Value* APPLStockQuote = api.StockQuote("AAPL");
+
+	std::cout << APPLStockQuote->toStyledString() << std::endl;
+}
+```
+
+```c++
+int main()
+{
+	Rivendell::FinnHubAPI api = Rivendell::FinnHubAPI("YOUR_API_TOKEN");
+
+	Json::Value* APPLStockQuote = api.StockQuote("AAPL");
+
+	std::cout << APPLStockQuote->toStyledString() << std::endl;
+}
+```
+
+###### Output:
+
+```json
+{
+  "c": 142.65000000000001,
+  "d": 1.1499999999999999,
+  "dp": 0.81269999999999998,
+  "h": 142.91999999999999,
+  "l": 139.11009999999999,
+  "o": 141.90000000000001,
+  "pc": 141.5,
+  "t": 1633118403
+}
+```
 
 #### Completed:
 
@@ -57,7 +95,7 @@ Example:
 - EPS Surprises: https://finnhub.io/docs/api/company-earnings
 - Earnings Calendar: https://finnhub.io/docs/api/earnings-calendar
 
-##### ETFS & INDICES
+##### ETFS & indices
 
 - Indices Constituents: https://finnhub.io/docs/api/indices-constituents
 - Historical Constituents: https://finnhub.io/docs/api/indices-historical-constituents
@@ -66,34 +104,34 @@ Example:
 - ETFs Sector: https://finnhub.io/docs/api/etfs-sector-exposure
 - ETFs Country: https://finnhub.io/docs/api/etfs-country-exposure
 
-##### MUTUAL FUNDS:
+##### Mutual Funds:
 
 - Mutual Funds Profile: https://finnhub.io/docs/api/mutual-fund-profile
 - Mutual Funds Holdings: https://finnhub.io/docs/api/mutual-fund-holdings
 - Mutual Funds Sector: https://finnhub.io/docs/api/mutual-fund-sector-exposure
 - Mutual Funds Country: https://finnhub.io/docs/api/mutual-fund-country-exposure
 
-##### FOREX
+##### Forex
 
 - Exchanges: https://finnhub.io/docs/api/forex-exchanges
 - Symbols: https://finnhub.io/docs/api/forex-symbols
 - Candles: https://finnhub.io/docs/api/forex-candles
 - All Rates: https://finnhub.io/docs/api/forex-rates
 
-##### CRYPTO
+##### Crypto
 
 - Exchanges: https://finnhub.io/docs/api/crypto-exchanges
 - Symbols: https://finnhub.io/docs/api/crypto-symbols
 - CandlesHigh Usage: https://finnhub.io/docs/api/crypto-candles
 
-##### TECHNICAL ANALYSIS
+##### Technical Analysis
 
 - Pattern Recognition: https://finnhub.io/docs/api/pattern-recognition
 - Support/Resistance: https://finnhub.io/docs/api/support-resistance
 - Aggregate Indicators: https://finnhub.io/docs/api/aggregate-indicator
 - Technical Indicators: https://finnhub.io/docs/api/technical-indicator
 
-##### ALTERNATIVE DATA
+##### Alternative Data
 
 - Transcripts List: https://finnhub.io/docs/api/transcripts-list
 - Transcripts: https://finnhub.io/docs/api/earnings-call-transcripts-api
@@ -105,9 +143,16 @@ Example:
 - COVID-19: https://finnhub.io/docs/api/covid-19
 - FDA Calendar: https://finnhub.io/docs/api/fda-committee-meeting-calendar
 
-##### ECONOMIC
+##### Economic
 
 - Country List: https://finnhub.io/docs/api/country
 - Economic Calendar: https://finnhub.io/docs/api/economic-calendar
 - Economic Codes: https://finnhub.io/docs/api/economic-code
 - Economic: https://finnhub.io/docs/api/economic-data
+
+#### TO DO:
+
+- Trades Websocket client: https://finnhub.io/docs/api/websocket-trades
+- News Websocket client: https://finnhub.io/docs/api/websocket-news
+-
+- Doxygen Documentation
