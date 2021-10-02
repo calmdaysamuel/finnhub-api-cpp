@@ -49,7 +49,7 @@ int main()
 }
 ```
 
-###### Example 2: Request to premium data without
+###### Example 2: Request to premium data without premium subscription
 
 ```c++
 int main()
