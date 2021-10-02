@@ -27,8 +27,8 @@ Why use this library over the official API:
 This library makes it easy to request any piece of data from the Finnhub API
 in only two lines of code.
 
-Step 1: Initialize the API with your Finhubb API token
-Step 2: Use the in built functions to request tHE data you want
+- Step 1: Initialize the API with your Finhubb API token
+- Step 2: Use the in built functions to request tHE data you want
 
 ###### Example 1: Request Apple(AAPL) stock quote
 
