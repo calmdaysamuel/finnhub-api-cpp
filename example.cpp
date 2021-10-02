@@ -2,9 +2,13 @@
 #include <iostream>
 int main()
 {
-    Rivendell::FinnHubAPI api = Rivendell::FinnHubAPI("c0g8rn748v6ob1prm39g"); // { "c0g8rn748v6ob1prm39g" };
+    Rivendell::FinnHubAPI api = Rivendell::FinnHubAPI("YOUR_API_KEY");
 
     Json::Value *APPLStockQuote = api.StockQuote("AAPL");
 
     std::cout << APPLStockQuote->toStyledString() << std::endl;
+
+    Json::Value *APPLFinancialStatements = api.FinancialStatements("AAPL", "bs", "annual");
+
+    std::cout << APPLFinancialStatements->toStyledString() << std::endl;
 }

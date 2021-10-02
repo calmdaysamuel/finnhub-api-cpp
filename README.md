@@ -4,7 +4,8 @@ Unofficial C++ library for the Finnhub Financial Data API
 
 This library provides an easy to use interface for requesting data from the Finnhub API.
 
-The documentation for the official API can be found here: https://finnhub.io/docs/api, and should be used to as a refernce to understand input parameters
+The documentation for the official API can be found here: https://finnhub.io/docs/api, and should be used to as a refernce to understand input parameters.
+
 This library depends on two libraries that need to need manually installed:
 
 Libcurl: https://curl.haxx.se/docs/install.html
@@ -45,6 +46,29 @@ int main()
   "o": 141.90000000000001,
   "pc": 141.5,
   "t": 1633118403
+}
+```
+
+###### Example 2: Request to premium data without
+
+```c++
+int main()
+{
+	Rivendell::FinnHubAPI api = Rivendell::FinnHubAPI("YOUR_API_TOKEN");
+
+	Json::Value* APPLFinancialStatements = api.FinancialStatements("AAPL", "bs", "annual");
+
+	std::cout << APPLFinancialStatements->toStyledString() << std::endl;
+
+}
+```
+
+###### Output:
+
+```json
+// Reference the Official Finnhub documentation to see feild definitions
+{
+  "error": "You don't have access to this resource."
 }
 ```
 
