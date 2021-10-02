@@ -23,30 +23,91 @@ Example:
 
 ##### Stock Fundamentals
 
-Symbol Lookup: https://finnhub.io/docs/api/symbol-search
-Stock Symbols: https://finnhub.io/docs/api/stock-symbols
-Company Profile: https://finnhub.io/docs/api/stock-symbols
-Company Profile 2: https://finnhub.io/docs/api/stock-symbols
-Company Executive: https://finnhub.io/docs/api/stock-symbols
-Market News: https://finnhub.io/docs/api/market-news
-Company News: https://finnhub.io/docs/api/market-news
-Press Releases: https://finnhub.io/docs/api/market-news
-News Sentiment: https://finnhub.io/docs/api/news-sentiment
-Peers: https://finnhub.io/docs/api/company-peers
-Basic Financials: https://finnhub.io/docs/api/company-basic-financials
-Ownership: https://finnhub.io/docs/api/ownership
-Fund Ownership: https://finnhub.io/docs/api/fund-ownership
-Insider Transactions: https://finnhub.io/docs/api/insider-transactions
-Financials: https://finnhub.io/docs/api/financials
-Financials As Reported: https://finnhub.io/docs/api/financials-reported
-Revenue Breakdown: https://finnhub.io/docs/api/revenue-breakdown
-SEC Filings: https://finnhub.io/docs/api/filings
-International Filings: https://finnhub.io/docs/api/international-filings
-SEC Sentiment Analysis: https://finnhub.io/docs/api/filings-sentiment
-Similarity Index: https://finnhub.io/docs/api/similarity-index
-IPO Calendat: https://finnhub.io/docs/api/ipo-calendar
-Dividends: https://finnhub.io/docs/api/stock-dividends
+- Symbol Lookup: https://finnhub.io/docs/api/symbol-search
+- Stock Symbols: https://finnhub.io/docs/api/stock-symbols
+- Company Profile: https://finnhub.io/docs/api/stock-symbols
+- Company Profile 2: https://finnhub.io/docs/api/stock-symbols
+- Company Executive: https://finnhub.io/docs/api/stock-symbols
+- Market News: https://finnhub.io/docs/api/market-news
+- Company News: https://finnhub.io/docs/api/market-news
+- Press Releases: https://finnhub.io/docs/api/market-news
+- News Sentiment: https://finnhub.io/docs/api/news-sentiment
+- Peers: https://finnhub.io/docs/api/company-peers
+- Basic Financials: https://finnhub.io/docs/api/company-basic-financials
+- Ownership: https://finnhub.io/docs/api/ownership
+- Fund Ownership: https://finnhub.io/docs/api/fund-ownership
+- Insider Transactions: https://finnhub.io/docs/api/insider-transactions
+- Financials: https://finnhub.io/docs/api/financials
+- Financials As Reported: https://finnhub.io/docs/api/financials-reported
+- Revenue Breakdown: https://finnhub.io/docs/api/revenue-breakdown
+- SEC Filings: https://finnhub.io/docs/api/filings
+- International Filings: https://finnhub.io/docs/api/international-filings
+- SEC Sentiment Analysis: https://finnhub.io/docs/api/filings-sentiment
+- Similarity Index: https://finnhub.io/docs/api/similarity-index
+- IPO Calendat: https://finnhub.io/docs/api/ipo-calendar
+- Dividends: https://finnhub.io/docs/api/stock-dividends
 
 ##### Stock Estimates
 
-Recommedation Trends: https://finnhub.io/docs/api/recommendation-trends
+- Recommedation Trends: https://finnhub.io/docs/api/recommendation-trends
+- Price Target: https://finnhub.io/docs/api/price-target
+- Upgrade Downgrade: https://finnhub.io/docs/api/upgrade-downgrade
+- Revenue Estimates: https://finnhub.io/docs/api/company-revenue-estimates
+- EPS Estimates: https://finnhub.io/docs/api/company-eps-estimates
+- EPS Surprises: https://finnhub.io/docs/api/company-earnings
+- Earnings Calendar: https://finnhub.io/docs/api/earnings-calendar
+
+##### ETFS & INDICES
+
+- Indices Constituents: https://finnhub.io/docs/api/indices-constituents
+- Historical Constituents: https://finnhub.io/docs/api/indices-historical-constituents
+- ETFs Profile: https://finnhub.io/docs/api/etfs-profile
+- ETFs Holdings: https://finnhub.io/docs/api/etfs-holdings
+- ETFs Sector: https://finnhub.io/docs/api/etfs-sector-exposure
+- ETFs Country: https://finnhub.io/docs/api/etfs-country-exposure
+
+##### MUTUAL FUNDS:
+
+- Mutual Funds Profile: https://finnhub.io/docs/api/mutual-fund-profile
+- Mutual Funds Holdings: https://finnhub.io/docs/api/mutual-fund-holdings
+- Mutual Funds Sector: https://finnhub.io/docs/api/mutual-fund-sector-exposure
+- Mutual Funds Country: https://finnhub.io/docs/api/mutual-fund-country-exposure
+
+##### FOREX
+
+- Exchanges: https://finnhub.io/docs/api/forex-exchanges
+- Symbols: https://finnhub.io/docs/api/forex-symbols
+- Candles: https://finnhub.io/docs/api/forex-candles
+- All Rates: https://finnhub.io/docs/api/forex-rates
+
+##### CRYPTO
+
+- Exchanges: https://finnhub.io/docs/api/crypto-exchanges
+- Symbols: https://finnhub.io/docs/api/crypto-symbols
+- CandlesHigh Usage: https://finnhub.io/docs/api/crypto-candles
+
+##### TECHNICAL ANALYSIS
+
+- Pattern Recognition: https://finnhub.io/docs/api/pattern-recognition
+- Support/Resistance: https://finnhub.io/docs/api/support-resistance
+- Aggregate Indicators: https://finnhub.io/docs/api/aggregate-indicator
+- Technical Indicators: https://finnhub.io/docs/api/technical-indicator
+
+##### ALTERNATIVE DATA
+
+- Transcripts List: https://finnhub.io/docs/api/transcripts-list
+- Transcripts: https://finnhub.io/docs/api/earnings-call-transcripts-api
+- Social Sentiment: https://finnhub.io/docs/api/social-sentiment
+- Investment Themes: https://finnhub.io/docs/api/investment-themes-thematic-investing
+- Supply Chain: https://finnhub.io/docs/api/supply-chain-relationships
+- Company ESG: https://finnhub.io/docs/api/company-esg-score-api
+- Earnings Quality Score: https://finnhub.io/docs/api/company-earnings-quality-score-api
+- COVID-19: https://finnhub.io/docs/api/covid-19
+- FDA Calendar: https://finnhub.io/docs/api/fda-committee-meeting-calendar
+
+##### ECONOMIC
+
+- Country List: https://finnhub.io/docs/api/country
+- Economic Calendar: https://finnhub.io/docs/api/economic-calendar
+- Economic Codes: https://finnhub.io/docs/api/economic-code
+- Economic: https://finnhub.io/docs/api/economic-data
